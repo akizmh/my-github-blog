@@ -127,7 +127,8 @@ Foo.classMethod() // 'hello'
 var foo = new Foo();
 foo.classMethod()
 // TypeError: foo.classMethod is not a function
-```js
+```
+
 但是静态方法可以被子类继承，也可以从super对象上调用。
 
 #### class的静态属性
